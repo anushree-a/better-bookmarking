@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Better Bookmarking",
+    "description": "A bookmarking tool that helps you sort all your links in a single place",
+    "version": "1.0.0",
+    "icons": {
+        "128": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
