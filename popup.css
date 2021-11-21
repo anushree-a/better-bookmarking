@@ -1,0 +1,37 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 180px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px
+}
+
+.text-input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input-field-input {
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.category-pill {
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-flex;
+    margin: 4px;
+    margin-left: 0;
+}
+
+.add-button {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+}

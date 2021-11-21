@@ -5,10 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="popup.css">
     <title>Popup</title>
 </head>
 
 <body>
+    <div class="popup-content">
+        <div class="text-input-field">
+            <label for="link" class="text-input-field-label">What link do you want to bookmark?</label>
+            <input type="text" id="link" name="link" class="text-input-field-input">
+        </div>
+        <div>
+            <p>What category does this belong to?</p>
+            <div>
+                <div class="category-pill">Music</div>
+                <div class="category-pill">Videos</div>
+                <div class="category-pill">Shows</div>
+                <div class="category-pill">Articles</div>
+                <div class="category-pill">HCI</div>
+            </div>
+        </div>
+        <div class="text-input-field">
+            <label for="name" class="text-input-field-label">Who recommended this to you?</label>
+            <input type="text" id="name" name="name" class="text-input-field-input">
+        </div>
+        <div class="add-button">
+            Bookmark this link!
+        </div>
+    </div>
     <script src="popup.js"></script>
 </body>
 
