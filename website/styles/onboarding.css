@@ -1,0 +1,14 @@
+.category-question-header {
+    text-align: center;
+}
+
+.category-pill {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    display: inline-flex;
+}
+
+.next-link {
+    float: right;
+}
