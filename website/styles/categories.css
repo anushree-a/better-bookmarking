@@ -4,3 +4,8 @@
     border: 1px solid black;
     display: inline-flex;
 }
+
+.category-block-link {
+    text-decoration: none;
+    color: #000;
+}
