@@ -1,0 +1,6 @@
+.category-block {
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-flex;
+}
