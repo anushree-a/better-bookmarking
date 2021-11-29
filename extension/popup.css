@@ -5,33 +5,51 @@
 body {
     min-height: 180px;
     width: 300px;
-    border: 1px solid black;
+    border-radius: 8px;
     padding: 20px
 }
 
 .text-input-field {
     display: flex;
     flex-direction: column;
+    margin: 16px 0;
 }
 
 .text-input-field-input {
     margin: 10px 0;
     border: 1px solid black;
     border-radius: 4px;
+    padding: 14px 8px;
+    border: 1px solid rgb(160, 155, 155);
+}
+
+.text-input-field-input:focus {
+    outline: 1px solid #eb8181;
 }
 
 .category-pill {
-    padding: 5px;
-    border: 1px solid black;
+    padding: 10px;
     display: inline-flex;
-    margin: 4px;
-    margin-left: 0;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #eb8181;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.category-pill:hover {
+    background-color: #d8aaaa;
 }
 
 .add-button {
     text-align: center;
-    border: 1px solid black;
     border-radius: 4px;
-    padding: 10px;
+    padding: 16px;
     margin-top: 20px;
+    background-color: #eb8181;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #d8aaaa;
 }
