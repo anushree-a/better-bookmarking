@@ -1,7 +1,6 @@
 {
   "name": "better-bookmarking",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/anushree-a/better-bookmarking/issues"
   },
-  "homepage": "https://github.com/anushree-a/better-bookmarking#readme"
+  "homepage": "https://github.com/anushree-a/better-bookmarking#readme",
+  "description": ""
 }
