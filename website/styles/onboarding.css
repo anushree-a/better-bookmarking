@@ -13,6 +13,10 @@
     cursor: pointer;
 }
 
+.selected-pill {
+    border: 2px solid black;
+}
+
 
 .category-pill:hover {
     background-color: #d8aaaa;
