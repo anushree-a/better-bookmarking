@@ -1,4 +1,11 @@
+body {
+    background-color: #dfa7a7;
+}
+
 .main-content {
-    padding: 2% 30%;
+    margin: 2% 30%;
+    padding: 5%;
     font-family: 'Roboto';
+    border-radius: 6px;
+    background-color: white;
 }

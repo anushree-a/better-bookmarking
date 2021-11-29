@@ -1,14 +1,29 @@
 .category-question-header {
-    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .category-pill {
-    padding: 5px;
-    margin: 5px;
-    border: 1px solid black;
+    padding: 10px;
     display: inline-flex;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #e49696;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.category-pill:hover {
+    background-color: #d8aaaa;
 }
 
 .next-link {
     float: right;
+    color: #000;
+    text-decoration: none;
+}
+
+.next-link:hover {
+    font-weight: bold;
 }
