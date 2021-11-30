@@ -6,7 +6,10 @@
     text-decoration: none;
     color: black;
     background-color: #e49696;
+    min-width: 80px;
+    justify-content: center;
 }
+
 
 .category-block:hover {
     background-color: #d8aaaa;
