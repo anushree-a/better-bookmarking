@@ -1,9 +1,15 @@
 .category-block {
-    padding: 30px;
+    padding: 30px 60px;
     margin: 20px;
-    border: 1px solid black;
     display: inline-flex;
     border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #e49696;
+}
+
+.category-block:hover {
+    background-color: #d8aaaa;
 }
 
 .category-block-link {
