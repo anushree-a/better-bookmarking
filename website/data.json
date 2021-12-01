@@ -1,6 +1,34 @@
 {
-    "data": {
-        "categories": [],
-        "linkData": []
-    }
+    "links": [
+        {
+            "link": "www.google.com",
+            "recommender": "Alok",
+            "notes": "A good link"
+        },
+        {
+            "link": "www.gmail.com",
+            "recommender": "Nidhi",
+            "notes": "A good link"
+        },
+        {
+            "link": "www.google.com",
+            "recommender": "Alok",
+            "notes": "A good link"
+        },
+        {
+            "link": "www.gmail.com",
+            "recommender": "Nidhi",
+            "notes": "A good link"
+        },
+        {
+            "link": "www.google.com",
+            "recommender": "Alok",
+            "notes": "A good link"
+        },
+        {
+            "link": "www.google.com",
+            "recommender": "Alok",
+            "notes": "A good link"
+        }
+    ]
 }
