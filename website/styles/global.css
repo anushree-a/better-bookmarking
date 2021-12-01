@@ -3,9 +3,16 @@ body {
 }
 
 .main-content {
-    margin: 2% 30%;
+    margin: 2% 20%;
     padding: 5%;
     font-family: 'Roboto';
     border-radius: 6px;
     background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        margin: 2%;
+        padding: 0%;
+    }
 }
