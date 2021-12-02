@@ -31,3 +31,26 @@
 .next-link:hover {
     font-weight: bold;
 }
+
+.additional-category-container {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.additional-category-input-container {
+    display: flex;
+}
+
+.additional-category-input {
+    margin-right: 2%;
+    padding: 5%;
+    width: 100%;
+    height: 45px;
+    padding: 0px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    flex: 1;
+}

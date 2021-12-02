@@ -20,7 +20,7 @@
     </header>
     <main class="main-content" onload="onLoadBody()">
         <h2 class="category-question-header">What type of content do you bookmark most frequently?</h2>
-        <div class="bookmark pills">
+        <div class="bookmark pills" id="bookmark pills">
             <div class="category-pill" value="Books" onclick="onSelectCategory(this)">Books</div>
             <div class="category-pill" value="Recipes" onclick="onSelectCategory(this)">Recipes</div>
             <div class="category-pill" value="Music" onclick="onSelectCategory(this)">Music</div>
@@ -31,6 +31,14 @@
             <div class="category-pill" value="Clothes" onclick="onSelectCategory(this)">Clothes</div>
             <div class="category-pill" value="Videos" onclick="onSelectCategory(this)">Videos</div>
             <div class="category-pill" value="Papers" onclick="onSelectCategory(this)">Papers</div>
+        </div>
+        <div class="additional-category-container">
+            <p>Need to add a category that's not listed above?</p>
+            <div class="additional-category-input-container">
+                <input type="text" class="additional-category-input" id="additional-category-input"
+                    placeholder="Add new category here!">
+                <button onclick="onCreateCategoryBtnClick()">Create</button>
+            </div>
         </div>
         <a class="next-link" href="./categories.html">Next →</a>
     </main>
