@@ -1,6 +1,6 @@
 let selectedCategories = [];
 const onSelectCategory = (element) => {
-    console.log(element)
+    console.log(element.target)
     if (element.target) {
         selectedCategories.push(element.target.value);
         element.target.classList.toggle("selected-pill");

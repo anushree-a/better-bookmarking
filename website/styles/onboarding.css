@@ -35,10 +35,15 @@
     float: right;
     color: #000;
     text-decoration: none;
+    padding: 10px;
+    margin: 4% 0;
+    background-color: #b6ccb6;
+    border-radius: 4px;
 }
 
 .next-link:hover {
     font-weight: bold;
+    transform: scale(1.1);
 }
 
 .additional-category-container {
