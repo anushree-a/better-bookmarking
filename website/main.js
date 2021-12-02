@@ -28,3 +28,8 @@ const onCreateCategoryBtnClick = () => {
 
     document.getElementById("additional-category-input").value = "";
 }
+
+const onAddNewCategoryBtnClick = () => {
+    document.getElementById("additional-category-container").classList.add("additional-category-container-active");
+    document.getElementById("add-new-category-pill").classList.add("add-new-category-pill-hidden");
+}
