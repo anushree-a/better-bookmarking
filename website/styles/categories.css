@@ -1,18 +1,25 @@
+.category-blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% 0;
+}
+
 .category-block {
     padding: 30px 60px;
     margin: 20px;
+    margin-left: 0px;
     display: inline-flex;
     border-radius: 10px;
     text-decoration: none;
     color: black;
-    background-color: #e49696;
-    min-width: 80px;
+    background-color: #a4b4db;
     justify-content: center;
 }
 
 
 .category-block:hover {
-    background-color: #d8aaaa;
+    border: 1px solid #a4b4c9;
 }
 
 .category-block-link {
@@ -23,10 +30,15 @@
 .prev-link {
     color: #000;
     text-decoration: none;
+    padding: 10px;
+    margin: 4% 0;
+    background-color: #b6ccb6;
+    border-radius: 4px;
 }
 
 .prev-link:hover {
     font-weight: bold;
+    transform: scale(1.1);
 }
 
 .category-blocks {
