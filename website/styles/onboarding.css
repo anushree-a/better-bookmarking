@@ -79,3 +79,8 @@
     border-radius: 4px;
     padding: 0 20px;
 }
+
+.add-category-btn:hover {
+    transform: scale(1.1);
+    border: 1px solid #cdd0d4;
+}
