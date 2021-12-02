@@ -1,13 +1,15 @@
-body {
-    background-color: #dfa7a7;
+.page-content {
+    margin: 1% 25%;
+    padding: 4% 0;
+    font-family: 'Roboto';
+    border-radius: 6px;
 }
 
-.main-content{
-    margin: 2% 20%;
-padding: 5%;
-font-family: 'Roboto';
-border-radius: 6px;
-background-color: white;
+.main-content {
+    background-color: #fdfeff;
+    margin: 2% 0;
+    padding: 4%;
+    border-radius: 4px;
 }
 
 @media only screen and (max-width: 600px) {
