@@ -2,7 +2,6 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    margin-top: 40px;
     border-radius: 10px;
 }
 
@@ -20,4 +19,20 @@ th {
 
 .prev-link:hover {
     font-weight: bold;
+}
+
+.search-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+input#search-bar {
+    margin: 0 auto;
+    width: 100%;
+    flex: 1;
+    height: 45px;
+    padding: 0px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
 }
