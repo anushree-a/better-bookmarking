@@ -1,0 +1,16 @@
+.header-content {
+    padding: 2%;
+    text-align: center;
+    margin: 2% 20%;
+    font-family: 'Roboto';
+    border-radius: 6px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.tool-title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 28px;
+    margin: 10px 0;
+    padding: 0;
+}

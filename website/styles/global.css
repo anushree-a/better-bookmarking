@@ -2,12 +2,12 @@ body {
     background-color: #dfa7a7;
 }
 
-.main-content {
+.main-content{
     margin: 2% 20%;
-    padding: 5%;
-    font-family: 'Roboto';
-    border-radius: 6px;
-    background-color: white;
+padding: 5%;
+font-family: 'Roboto';
+border-radius: 6px;
+background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
