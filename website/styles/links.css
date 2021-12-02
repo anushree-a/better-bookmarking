@@ -24,6 +24,7 @@ th {
 .search-container {
     width: 100%;
     margin: 20px 0;
+    display: flex;
 }
 
 input#search-bar {
