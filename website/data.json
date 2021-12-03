@@ -3,32 +3,32 @@
         {
             "link": "https://www.google.com/",
             "recommender": "Alok",
-            "notes": "A good link"
+            "notes": "Portfolio Inspiration"
         },
         {
             "link": "https://www.gmail.com/",
+            "recommender": "Sanika",
+            "notes": "IMPORTANT!"
+        },
+        {
+            "link": "https://www.spotify.com/",
+            "recommender": "Alok",
+            "notes": "Read till para 3"
+        },
+        {
+            "link": "https://www.apple.com/",
             "recommender": "Nidhi",
-            "notes": "A good link"
+            "notes": "-"
         },
         {
-            "link": "https://www.google.com/",
-            "recommender": "Alok",
-            "notes": "A good link"
+            "link": "https://www.facebook.com/",
+            "recommender": "Prerna",
+            "notes": "Related to Independent study"
         },
         {
-            "link": "https://www.gmail.com/",
+            "link": "https://www.medium.com/",
             "recommender": "Nidhi",
-            "notes": "A good link"
-        },
-        {
-            "link": "https://www.google.com/",
-            "recommender": "Alok",
-            "notes": "A good link"
-        },
-        {
-            "link": "https://www.google.com/",
-            "recommender": "Alok",
-            "notes": "A good link"
+            "notes": "Related to Independent study"
         }
     ]
 }
