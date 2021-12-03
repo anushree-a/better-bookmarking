@@ -1,34 +1,34 @@
 {
     "links": [
         {
-            "link": "https://www.google.com/",
-            "recommender": "Alok",
-            "notes": "Portfolio Inspiration"
+            "link": "https://uxdesign.cc/how-i-got-started-as-a-vui-designer-d3f80fa34a5e",
+            "recommender": "Alice",
+            "notes": "Potential for Independent Study"
         },
         {
-            "link": "https://www.gmail.com/",
-            "recommender": "Sanika",
-            "notes": "IMPORTANT!"
+            "link": "https://uxdesign.cc/the-state-of-ux-in-2022-3730c0a6ad39",
+            "recommender": "Alice",
+            "notes": "Quick read"
         },
         {
-            "link": "https://www.spotify.com/",
-            "recommender": "Alok",
-            "notes": "Read till para 3"
+            "link": "https://medium.com/design-systems-for-figma/accessible-design-systems-look-good-while-doing-good-1db917a1b53b",
+            "recommender": "Bob",
+            "notes": "Useful for PUI project"
         },
         {
             "link": "https://www.apple.com/",
-            "recommender": "Nidhi",
+            "recommender": "Cathy",
             "notes": "-"
         },
         {
-            "link": "https://www.facebook.com/",
-            "recommender": "Prerna",
-            "notes": "Related to Independent study"
+            "link": "https://www.tr3dent.com/10-medium-articles-every-aspiring-entrepreneur-should-read/",
+            "recommender": "Me",
+            "notes": "Entrepreneurship"
         },
         {
-            "link": "https://www.medium.com/",
-            "recommender": "Nidhi",
-            "notes": "Related to Independent study"
+            "link": "https://www.seriouseats.com/csa-farm-box-demand-coronavirus-covid-sales",
+            "recommender": "Cathy",
+            "notes": "IxD Unit4 project premise"
         },
         {
             "link": "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
