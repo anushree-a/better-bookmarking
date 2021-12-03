@@ -1,5 +1,6 @@
 let data = {};
 
+// Renders links inside the table dynamically 
 const renderLinks = (linkObj) => {
     const tableEl = document.getElementById("links");
     tableEl.innerHTML = null;
@@ -32,11 +33,13 @@ const renderLinks = (linkObj) => {
     }
 }
 
+// Fetches data from data.json
 fetch("./data.json").then(response => response.json()).then(linkData => {
     data = linkData;
     renderLinks(linkData.links)
 })
 
+// Performs a simple search on the links data on click of the search btn
 const onSearchBtnClick = () => {
     const searchQuery = document.getElementById("search-bar").value;
 
