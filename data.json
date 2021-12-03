@@ -29,6 +29,11 @@
             "link": "https://www.medium.com/",
             "recommender": "Nidhi",
             "notes": "Related to Independent study"
+        },
+        {
+            "link": "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
+            "recommender": "Me",
+            "notes": "Winter Reading"
         }
     ]
 }
