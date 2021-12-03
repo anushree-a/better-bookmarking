@@ -11,6 +11,7 @@ const renderLinks = (linkObj) => {
             const linkValue = document.createElement("a");
             linkValue.href = l.link;
             linkValue.target = "_blank"
+            linkValue.classList.add("link")
             linkValue.innerHTML = l.link;
             linkValueEl.appendChild(linkValue);
             const linkNameEl = document.createElement("td")
