@@ -17,7 +17,7 @@ const onSelectCategory = (element) => {
 const onCreateCategoryBtnClick = () => {
     const newCategoryValue = document.getElementById("additional-category-input").value;
     const categoryParentDiv = document.getElementById("bookmark pills");
-    const newCategoryPill = document.createElement("div");
+    const newCategoryPill = document.createElement("button");
     newCategoryPill.classList.add("category-pill")
     newCategoryPill.value = newCategoryValue;
     newCategoryPill.innerHTML = newCategoryValue;
