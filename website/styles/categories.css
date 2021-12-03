@@ -1,8 +1,11 @@
+.pick-category-msg {
+    margin-top: 60px;
+}
+
 .category-blocks {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5% 0;
 }
 
 .category-block {
