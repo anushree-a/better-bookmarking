@@ -68,6 +68,8 @@ input#search-bar {
         display: flex;
         flex-direction: column;
         border: 1px solid #cdd0d4;
+        width: 180px;
+        overflow-wrap: break-word;
     }
 
     input#search-bar {
