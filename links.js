@@ -31,7 +31,7 @@ const renderLinks = (linkObj) => {
     }
 }
 
-fetch("data.json").then(response => response.json()).then(linkData => {
+fetch("./data.json").then(response => response.json()).then(linkData => {
     data = linkData;
     renderLinks(linkData.links)
 })
