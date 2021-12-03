@@ -15,14 +15,19 @@
 
 <body class="page-content">
     <header class="header-content">
-        <p class="tool-title">better bookmarking 🔖</p>
+        <h1 class="tool-title">better bookmarking 🔖</h1>
         <p>A home to all of those links on the web that seem to get lost just when you need them.</p>
     </header>
     <main class="main-content">
         <a class="prev-link" href="./categories.html">← Back</a>
         <div class="search-container">
-            <input type="text" id="search-bar" placeholder="What are you looking for?">
-            <button class="search-btn" onclick="onSearchBtnClick()">Search</button>
+            <label id="searchLabel" for="additional-category-input" class="additional-category-label">What are you
+                looking
+                for today?</label>
+            <div class="search-input-container">
+                <input type="text" id="search-bar" placeholder="Add search query">
+                <button class="search-btn" onclick="onSearchBtnClick()">Search</button>
+            </div>
         </div>
         <table class="links" id="links">
             <tr>
