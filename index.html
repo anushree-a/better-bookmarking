@@ -15,24 +15,25 @@
 
 <body class="page-content">
     <header class="header-content">
-        <p class="tool-title">better bookmarking 🔖</p>
+        <h1 class="tool-title">better bookmarking 🔖</h1>
         <p>A home to all of those links on the web that seem to get lost just when you need them.</p>
     </header>
     <main class="main-content" onload="onLoadBody()">
         <h2 class="category-question-header">What type of content do you bookmark most frequently?</h2>
-        <div class="bookmark pills" id="bookmark pills">
-            <div class="category-pill" value="Books" onclick="onSelectCategory(this)">Books</div>
-            <div class="category-pill" value="Recipes" onclick="onSelectCategory(this)">Recipes</div>
-            <div class="category-pill" value="Music" onclick="onSelectCategory(this)">Music</div>
-            <div class="category-pill" value="Articles" onclick="onSelectCategory(this)">Articles</div>
-            <div class="category-pill" value="Videos" onclick="onSelectCategory(this)">Videos</div>
-            <div class="category-pill" value="Shows" onclick="onSelectCategory(this)">Shows</div>
-            <div class="category-pill" value="Clothes" onclick="onSelectCategory(this)">Clothes</div>
-            <div class="category-pill" value="Videos" onclick="onSelectCategory(this)">Videos</div>
-            <div class="category-pill" value="Papers" onclick="onSelectCategory(this)">Papers</div>
-            <div id="add-new-category-pill" class="category-pill" value="Restaurants"
+        <form class="bookmark pills" id="bookmark pills" label="Link Categories">
+            <a class="category-pill" value="Books" onclick="onSelectCategory(this)">Books</a>
+            <a class="category-pill" value="Recipes" onclick="onSelectCategory(this)">Recipes</a>
+            <a class="category-pill" value="Music" onclick="onSelectCategory(this)">Music</a>
+            <a class="category-pill" value="Articles" onclick="onSelectCategory(this)">Articles</a>
+            <a class="category-pill" value="Videos" onclick="onSelectCategory(this)">Videos</a>
+            <a class="category-pill" value="Shows" onclick="onSelectCategory(this)">Shows</a>
+            <a class="category-pill" value="Clothes" onclick="onSelectCategory(this)">Clothes</a>
+            <a class="category-pill" value="Videos" onclick="onSelectCategory(this)">Videos</a>
+            <a class="category-pill" value="Papers" onclick="onSelectCategory(this)">Papers</a>
+            <a id="add-new-category-pill" class="category-pill" value="Restaurants"
                 onclick="onAddNewCategoryBtnClick()">+
-                Add New</div>
+                Add New
+        </form>
         </div>
         <div class="additional-category-container" id="additional-category-container">
             <div class="additional-category-input-container">
