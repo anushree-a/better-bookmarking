@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto';
+    font-size: 14px;
 }
 
 body {
@@ -24,32 +25,52 @@ body {
 }
 
 .text-input-field-input:focus {
-    outline: 1px solid #eb8181;
+    outline: 1px solid rgb(160, 155, 155);
+    ;
 }
 
 .category-pill {
-    padding: 10px;
+    padding: 10px 14px;
     display: inline-flex;
     margin-right: 8px;
     margin-bottom: 8px;
-    background-color: #eb8181;
-    border-radius: 20px;
+    background-color: #e6e9ed;
+    border-radius: 24px;
     cursor: pointer;
 }
 
 .category-pill:hover {
-    background-color: #d8aaaa;
+    border: 1px solid #cdd0d4;
+    transform: scale(1.1);
 }
+
 
 .add-button {
     text-align: center;
     border-radius: 4px;
     padding: 16px;
     margin-top: 20px;
-    background-color: #eb8181;
+    margin: 4% 0;
+    background-color: #b6ccb6;
+    border-radius: 4px;
     cursor: pointer;
 }
 
 .add-button:hover {
-    background-color: #d8aaaa;
+    font-weight: bold;
+    border: 1px solid #9ba5b1;
+}
+
+.header-content {
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.tool-title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 0;
 }
