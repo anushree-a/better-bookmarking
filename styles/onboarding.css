@@ -48,6 +48,10 @@
     transform: scale(1.1);
 }
 
+.additional-category-label {
+    font-size: 14px;
+}
+
 .additional-category-container {
     width: 100%;
     margin: 20px 0;

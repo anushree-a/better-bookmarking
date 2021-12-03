@@ -31,17 +31,18 @@
             <a class="category-pill" value="Videos" onclick="onSelectCategory(this)">Videos</a>
             <a class="category-pill" value="Papers" onclick="onSelectCategory(this)">Papers</a>
             <a id="add-new-category-pill" class="category-pill" value="Restaurants"
-                onclick="onAddNewCategoryBtnClick()">+Add New</a>
+                onclick="onAddNewCategoryBtnClick()">+ Add New</a>
         </div>
         </div>
-        <div class="additional-category-container" id="additional-category-container"
-            label="Form to create new category">
+        <div class="additional-category-container" id="additional-category-container">
+            <label id="searchLabel" for="additional-category-input" class="additional-category-label">Add
+                category</label>
             <div class="additional-category-input-container">
-                <label id="searchLabel" for="additional-category-input"></label>
                 <input type="text" class="additional-category-input" id="additional-category-input"
                     placeholder="Enter category title here">
                 <button onclick="onCreateCategoryBtnClick()" class="add-category-btn">Add</button>
             </div>
+        </div>
         </div>
         <a class="next-link" href="./categories.html">Next →</a>
     </main>
