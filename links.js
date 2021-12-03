@@ -7,6 +7,7 @@ const renderLinks = (linkObj) => {
     if (linkObj.length) {
         linkObj.forEach(l => {
             const linkRowEl = document.createElement("tr");
+            linkRowEl.classList.add("table-row")
             const linkValueEl = document.createElement("td")
             const linkValue = document.createElement("a");
             linkValue.href = l.link;

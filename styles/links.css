@@ -62,3 +62,15 @@ input#search-bar {
     transform: scale(1.1);
     border: 1px solid #cdd0d4;
 }
+
+@media only screen and (max-width: 600px) {
+    .table-row {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #cdd0d4;
+    }
+
+    input#search-bar {
+        font-size: 12px;
+    }
+}

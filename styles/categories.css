@@ -47,3 +47,14 @@
 .category-blocks {
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .category-blocks {
+        display: flex;
+        justify-content: center;
+    }
+
+    .category-block {
+        margin-right: 0px;
+    }
+}

@@ -84,3 +84,13 @@
     transform: scale(1.1);
     border: 1px solid #cdd0d4;
 }
+
+@media only screen and (max-width: 600px) {
+    .category-pill {
+        padding: 6px 10px;
+    }
+
+    .additional-category-input {
+        font-size: 12px;
+    }
+}
