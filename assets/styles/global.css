@@ -20,4 +20,8 @@
         padding: 8% 2%;
         text-align: center;
     }
+
+    .page-content {
+        margin: 1% 10%;
+    }
 }
